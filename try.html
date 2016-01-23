@@ -1,0 +1,110 @@
+<html>
+ 
+<head>
+<script type="text/javascript"src="task.js"></script>
+<title>My Test Day</title>
+
+<style>
+#main{
+background-color :grey;
+width:600px;
+height:900px:
+border-radius:25px;
+border:3px black;
+text-align:center;
+height: 100%;
+}
+</style>
+</head>
+
+ 
+<body style="background-color:white">
+<center> 
+<div id="main">
+
+<center>
+<h1>WIREDELTA</h1>
+</center>
+
+<!-- Age Calculating -->
+ 
+ <h3 style="color:black"><center>Task 1 - THE AGE CALCULATOR</center></h3>
+ 
+<p align="center">Birth Year :
+    <input type="text" name="birthYear" id="birthYear"   />
+Current Year :
+    <input type="text" name="currentYear" id="currentYear"   />
+</p>
+<center><input type="button"   value="Calculate Age" onClick="caculateAge(document.getElementById('birthYear').value,document.getElementById('currentYear').value);" /></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--LifeTime Supply Calculator-->
+
+ <br/>
+
+<p align="center"><h3 style="color:black"><center>Task 2 - THE LIFETIME SUPPLY CALCULATOR</center></h3></p>
+ 
+<p align="center">Age :
+    <input type="text" name="age" id="age"   />
+Snacks /Day :
+    <input type="text" name="amount" id="amount"   />
+</p>
+<center><input type="button"  value="Calculate Snacks" onClick="calculateSupply(document.getElementById('age').value,document.getElementById('amount').value);" /></center>
+
+
+
+
+
+
+
+
+<!--Geometrizer. -->
+ <br/>
+
+<h3 style="color:black"><center>Task 3 - THE GEOMETRIZER</center></h3>
+<p align="center">Radius of a Circle :
+    <input type="text" name="radius" id="radius" maxlength="4"   />
+</p>
+<center><input type="button"   value="Calculate Area" onClick="calcArea(document.getElementById('radius').value);" </center>
+<input type="button"  value="Calculate Circumference" onClick="calcCircumfrence(document.getElementById('radius').value);" /></center>
+ 
+
+
+
+
+
+
+
+
+
+<!--Temperature Conversion-->
+<br/>
+
+<h3 style="color:black"><center>Task 4 - THE TEMPERATURE CONVERTER</center></h3>
+ <p align="center">Temperature :
+    <input type="text" name="temperature" id="temperature"   />
+</p>
+<center><input type="button" value="Celsius to Fahrenheit" onClick="celsiusToFahrenheit(document.getElementById('temperature').value);"</center>
+<input type="button"   value="Fahrenheit to Celsius " onClick="fahrenheitToCelsius(document.getElementById('temperature').value);" />
+</div></center>
+ 
+</body>
+
+
+ 
+</html>
